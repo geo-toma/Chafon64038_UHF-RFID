@@ -1,0 +1,41 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean this module is required for running your program. Python and
+Python 3rd-party packages include a lot of conditional or optional modules. For
+example the module 'ntpath' only exists on Windows, whereas the module
+'posixpath' only exists on Posix systems.
+
+Types if import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+            tracking down the missing module yourself. Thanks!
+
+missing module named pyimod02_importers - imported by /home/pi/.local/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py (top-level)
+missing module named pep517 - imported by importlib.metadata (delayed)
+missing module named org - imported by copy (optional)
+missing module named nt - imported by os (delayed, conditional, optional), ntpath (optional), shutil (conditional), pathlib (conditional), ctypes (delayed, conditional)
+missing module named 'org.python' - imported by pickle (optional), xml.sax (delayed, conditional)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), zipimport (top-level)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), zipimport (top-level)
+missing module named _winapi - imported by encodings (delayed, conditional, optional), subprocess (optional)
+missing module named msvcrt - imported by subprocess (optional), getpass (optional)
+missing module named 'ctypes.macholib' - imported by ctypes.util (conditional)
+missing module named AppKit - imported by screeninfo.enumerators.osx (delayed)
+missing module named PyObjCTools - imported by jpype._gui (delayed, conditional)
+missing module named numpydoc - imported by jedi.inference.docstrings (delayed)
+missing module named vms_lib - imported by platform (delayed, optional)
+missing module named _winreg - imported by platform (delayed, optional)
+missing module named winreg - imported by mimetypes (optional), urllib.request (delayed, conditional, optional), jpype._jvmfinder (optional), platform (delayed, optional), jedi.api.environment (delayed)
+missing module named 'java.io' - imported by jaydebeapi (delayed)
+missing module named 'java.net' - imported by jaydebeapi (delayed)
+missing module named 'java.util' - imported by jaydebeapi (delayed, conditional)
+missing module named 'java.lang' - imported by jaydebeapi (delayed), platform (delayed, optional), xml.sax._exceptions (conditional)
+missing module named jarray - imported by jaydebeapi (delayed, conditional)
+missing module named 'java.sql' - imported by jaydebeapi (delayed, conditional)
+missing module named java - imported by jaydebeapi (delayed)
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named cffi - imported by PIL.Image (optional), PIL.PyAccess (optional), PIL.ImageTk (delayed, conditional, optional)
